@@ -1,0 +1,2 @@
+$( '.libro__img' ).draggable({
+});
