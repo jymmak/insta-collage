@@ -7,31 +7,78 @@
   <title>Collage</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="assets/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
-  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
-
-<body>
-
-  <section class="principal">
-
-          <div class="contenedor">
-
-              <img src="https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20140126234206&format=original" alt="" class="libro__img" tabindex="1">
-              <img src="https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20140126234206&format=original" alt="" class="libro__img">
-              <img src="https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20140126234206&format=original" alt="" class="libro__img">
-              <img src="https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20140126234206&format=original" alt="" class="libro__img">
-              <img src="https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20140126234206&format=original" alt="" class="libro__img">
-
-          </div>
-
-        </section>
-
-  <!-- Sección scripts-->
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-  <script src="js/app.js"></script>
-</body>
-
-</html>
+<body class="back">
+  <div class="container-fluid first-section">
+    <div class="row">
+      <div class="col-xs-12 text-center text-white">
+        <span>Idioma en español (España)</span>
+        <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container-fluid second-section">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <img class="logo" src="assets/images/insta.png" alt="insta">
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid third-section">
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4">
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <input id="input2" type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+        </div>
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon2"><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
+          <input id="input1" type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container-fluid fourth-section">
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4">
+        <button id="btnNext" class="btn btn-block media text-white" type="submit" disabled>Iniciar sesión</button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid fifth-section">
+    <div class="row">
+      <div class="col-xs-12 text-white">
+        <p class="text-center">¿Has olvidado tu información de inicio de sesión? <a href="#"><strong>Obtén ayuda.</strong></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-7 col-xs-offset-5 inline">
+        <a href="#"><i class="fab fa-facebook text-white"></i>
+        <p class="text-white">    Inicia sesión con Facebook</p></a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 text-white">
+          <hr>
+          <p class="text-center">¿No tienes una cuenta? <a href="#"><strong>Regístrate</strong></a></p></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Sección scripts-->
+    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+  </html>

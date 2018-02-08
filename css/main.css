@@ -1,3 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+}
+.back {
+  background: linear-gradient(0deg,#70c485,#db745a);
+  height: 100vh;
+  background-position: center center;
+}
 .libro__img{
   width: 200px;
+}
+.logo{
+  width: 20%;
+  margin-bottom: 20px;
+}
+.first-section{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.text-white{
+  color: white;
+}
+.fifth-section{
+  margin: 30px 20px;
+}
+hr{
+  width: 100%;
+  color: grey;
+}
+.inline i, .inline p{
+  display: inline-block;
+}
+#btnNext{
+  background-color: transparent;
+  border: 1px solid white;
+}
+#input1, #input2{
+  background-color: transparent;
+}
+input::placeholder, input[placeholder]{
+  color: white !important;
 }
