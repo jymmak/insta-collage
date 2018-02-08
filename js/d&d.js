@@ -1,4 +1,4 @@
 $(document).ready(()=>{
-  $( '.libro__img' ).draggable({
+  $( '.img' ).draggable({
   });
 });
